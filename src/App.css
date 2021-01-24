@@ -1,10 +1,30 @@
 .App {
   text-align: center;
+  margin: 50px;
+  padding: 0;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+input[type="number"] {
+  margin: 5px;
+  border: 2px solid #000;
+  height: 25px;
+}
+
+button {
+  margin: 5px;
+  height: 30px;
+  width: 30px;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+hr {
+  width: 300px;
+  border: 1px solid #000;
 }
 
 @media (prefers-reduced-motion: no-preference) {
